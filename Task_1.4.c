@@ -5,7 +5,7 @@ int main(int argc, char const *argv[])
 {
    int num;
    int vars = 0;
-   scanf_s(argv[1], "%d",&num);
+   sscanf_s(argv[1], "%d",&num);
    char **p;
    for (p = environ; *p != NULL; p++) 
    {
